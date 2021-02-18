@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const ColorPicker =()=>{
+const ColorSettings =()=>{
     return(
         <div>
 
@@ -9,4 +9,4 @@ const ColorPicker =()=>{
     )
 }
 
-export default ColorPicker
+export default ColorSettings
