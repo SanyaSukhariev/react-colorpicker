@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import ColorPicker from './components/ColorPicker/ColorPicker';
 
 function App() {
   return (
     <div>
-      <h1>ColorPicker</h1>
+      <ColorPicker />
       
     </div>
   );
