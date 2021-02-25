@@ -4,12 +4,12 @@ import classes from "../ColorList/ColorList.module.css";
 
 const ColorList =()=>{
     return(
-        <select className={classes.item}>
-        <option value="Red"> RED </option>
-        <option value="Yellow"> YELLOW </option>
-        <option value="Green"> GREEN </option>
-        <option value="Blue"> BLUE </option>
-      </select>
+        <ul className={classes.item}>
+        <li value="Red"> RED </li>
+        <li value="Yellow"> YELLOW </li>
+        <li value="Green"> GREEN </li>
+        <li value="Blue"> BLUE </li>
+      </ul>
     )
 }
 
